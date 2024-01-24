@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
     <script src="script.js"></script>
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/81439fd4c5.js" crossorigin="anonymous"></script>
@@ -64,7 +66,41 @@
                 </button>
             </div>
         </div>
-
    </div>
+
+   <main>
+        <div class="main-container">
+            <nav class="header-navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./assets/icons/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+                    <div class="header-search">
+                        <img src="./assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                    </div>
+
+                    <div class="header-login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+   </main>
+
+   <footer class="disclaimer-premium">
+        <div class="text">
+            <p class="disclaimer-premium-title">Testar o Premium de graça
+            </p>
+            <p>
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito
+            </p>
+        </div>
+   </footer>
 </body>
 </html>
