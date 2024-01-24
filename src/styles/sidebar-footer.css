@@ -1,6 +1,7 @@
 body {
     background-color: black;
     font-family: var(--font-dm-sans);
+    margin: 10px;
 }
 
 .sidebar {
@@ -186,11 +187,38 @@ body {
     position: relative;
     background: linear-gradient(90deg,#af2896,#509bf5);
     color: #fff;
-    padding: ;
 }
 
 .disclaimer-premium .text{
     display: block;
     padding: 10px;
     margin-left: 10px;
+    padding: 11px 24px 7px 15px;
+}
+
+.disclaimer-premium .disclaimer-premium-title{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium-subtitle{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium .disclaimer-button{
+    width: 170px;
+    position: relative;
+    height: 48px;
+    margin: 11px 24px 7px 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-dm-sans);
 }
