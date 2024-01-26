@@ -11,4 +11,4 @@ O projeto é uma recriação da página inicial do Spotify, incluindo a barra de
 1. Clone o repositório para o seu ambiente local.
 
 ```bash
-git clone https://github.com/seu-usuario/spotify-clone.git
+git clone https://github.com/edukleber100/clone-spotify2-imersao-alura.git
