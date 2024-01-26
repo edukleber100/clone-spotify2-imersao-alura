@@ -4,7 +4,7 @@ const resultPlaylist = document.getElementById('result-playlists');
 
 
 function requestApi(searchTerm){
-    const url = `http://localhost:3000/artists?name_like=${searchTerm}`
+    const url = `http://localhost:3000/artists?name_like=${searchTerm}`;
     fetch(url)
         .then((response) => response.json())
         .then((result) => displayResults(result))
@@ -26,8 +26,8 @@ function displayResults(result){
 document.addEventListener('input',() => {
     const searchTerm = searchInput.value.toLowerCase();
     if (searchTerm === ''){
-        resultPlaylist.classList.add('hidden');
-        resultArtists.classList.remove('hidden');
+        resultPlaylist.classList.remove('hidden');
+        resultArtists.classList.add('hidden');
         return;
     }
 
